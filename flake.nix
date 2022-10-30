@@ -4,8 +4,8 @@
   outputs = _:
     {
       legacyPackages.x86_64-linux.database = builtins.fetchurl {
-        url = "https://github.com/houstdav000/nix-index-database-stable/releases/download/2022-10-23/index-x86_64-linux";
-        sha256 = "1q7bl6f5z1r3bh54y2rfqg5v3mvky6wg7bkkkq242wh32aa5arsg";
+        url = "https://github.com/houstdav000/nix-index-database-stable/releases/download/2022-10-30/index-x86_64-linux";
+        sha256 = "053g4sqj4s9mvn33n0fsx62kq1yyaclmyq3d4r1cbl9pi8iyggsq";
       };
     };
 }
